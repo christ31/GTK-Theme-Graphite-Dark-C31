@@ -3,7 +3,9 @@
 A GTK theme from Graphite  
 https://github.com/vinceliuice/Graphite-gtk-theme  
 
-Personalize for C31\
+Personalize for C31
+
+![Screenshot from 2023-05-20 02-29-54](https://github.com/christ31/GTK-Theme-Graphite-Dark-C31/assets/37174502/ddf14c5d-95f2-4477-ba68-fb33ee302fa9)
 
 # Editing your own Gnome Theme
 
