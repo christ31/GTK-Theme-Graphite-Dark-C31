@@ -6409,6 +6409,7 @@ window.background > box.vertical > scrolledwindow > widget toolbar button {
  ************/
 window.background.chromium {
   background-color: #3C3C3C;
+  
 }
 
 window.background.chromium decoration {

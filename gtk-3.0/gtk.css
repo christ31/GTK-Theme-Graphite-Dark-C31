@@ -6405,8 +6405,9 @@ window.background > box.vertical > scrolledwindow > widget toolbar button {
 /************
  * Chromium *
  ************/
+/* ! background = active tab + sub headerbar + new tab background */
 window.background.chromium {
-  background-color: #3C3C3C;
+  background-color: #23252E;
 }
 
 window.background.chromium decoration {
@@ -6423,13 +6424,29 @@ window.background.chromium > button:disabled {
   color: rgba(255, 255, 255, 0.3);
 }
 
-window.background.chromium menubar,
-window.background.chromium headerbar {
+/*
+  ! For some reason, changing window.background.chromium headerbar also change vscode.
+  ! headerbar = font color used in header 
+  
+  * Source where GTK is implemented in Chromium: 
+  * https://chromium.googlesource.com/chromium/src/+/refs/heads/main/ui/gtk/native_theme_gtk.cc 
+*/
+
+window.background.chromium menubar {
+  background-color: #23252E;
+}
+
+window.background.chromium headerbar.header-bar.titlebar {
   color: rgba(255, 255, 255, 0.7);
+  background-color: #000;
 }
 
 window.background.chromium headerbar button:active {
   background-color: alpha(currentColor, 0.12);
+}
+
+window.background.chromium headerbar.tool--bar {
+  background-color: blue;
 }
 
 window.background.chromium spinner {
