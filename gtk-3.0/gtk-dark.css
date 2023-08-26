@@ -1039,7 +1039,7 @@ radio label, button.close label, button.circular label, .inline-toolbar button:n
 button {
   min-height: 24px;
   min-width: 16px;
-  padding: 6px 10px;
+  padding: 2px 6px;
   border-radius: 6px;
   font-weight: 500;
 }
@@ -2263,11 +2263,11 @@ menu menuitem,
   transition: background-color 75ms cubic-bezier(0, 0, 0.2, 1);
   min-height: 20px;
   min-width: 40px;
-  padding: 4px 8px;
+  padding: 2px 5px;
   color: white;
   font: initial;
   text-shadow: none;
-  border-radius: 6px;
+  border-radius: 9999px;
 }
 
 menu menuitem:hover,
@@ -4335,7 +4335,6 @@ decoration {
   transition: none;
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2), 0 10px 18px rgba(0, 0, 0, 0.14), 0 8px 24px rgba(0, 0, 0, 0.12), 0 0 50px transparent;
   border-radius: 14px;
-  border: 2px solid #14b8a6;
   background-clip: border-box;
   margin: 10px;
 }
@@ -4343,7 +4342,6 @@ decoration {
 decoration:backdrop {
   transition: box-shadow 75ms cubic-bezier(0, 0, 0.2, 1);
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2), 0 3px 4px rgba(0, 0, 0, 0.14), 0 1px 6px rgba(0, 0, 0, 0.12), 0 0 50px transparent;
-  border: 2px solid #0a665b;
   background-clip: border-box;
 }
 
@@ -4364,7 +4362,6 @@ decoration:backdrop {
 
 .csd.popup decoration {
   border-radius: 12px;
-  border-radius: 14px;
   border: 2px solid #14b8a6;
   background-clip: border-box;
 }
@@ -4395,6 +4392,24 @@ button.titlebutton:not(.suggested-action):not(.destructive-action) {
   margin: 0 3px;
 }
 
+/* titlebutton minimize */
+button.titlebutton.minimize:not(.suggested-action):not(.destructive-action) {
+  background-color: #3b3d4d;
+  color: #3b3d4d;
+  transition-duration: 250ms;
+}
+
+button.titlebutton.minimize:not(.suggested-action):not(.destructive-action):hover {
+  background-color: #333442;
+  color: #333442;
+}
+
+button.titlebutton.minimize:not(.suggested-action):not(.destructive-action):active {
+  background-color: #323441;
+  color: #323441;
+}
+
+/* titlebutton close */
 button.titlebutton.close:not(.suggested-action):not(.destructive-action) {
   background-color: #ff0000;
   color: #ff0000;
@@ -4402,8 +4417,8 @@ button.titlebutton.close:not(.suggested-action):not(.destructive-action) {
 }
 
 button.titlebutton.close:not(.suggested-action):not(.destructive-action):hover {
-  background-color: #ff1616;
-  color: #ff1616;
+  background-color: #db1010;
+  color: #db1010;
 }
 
 button.titlebutton.close:not(.suggested-action):not(.destructive-action):active {
@@ -6409,7 +6424,6 @@ window.background > box.vertical > scrolledwindow > widget toolbar button {
  ************/
 window.background.chromium {
   background-color: #3C3C3C;
-  
 }
 
 window.background.chromium decoration {

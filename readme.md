@@ -28,6 +28,8 @@ Personalize for C31
 ### GTK4
 
 - VScode using gtk-dark.css on csd
+- button.minimize
+- button.close
 
 ## 2. Outline or box-shadow (Gnome Terminal)
 
@@ -35,10 +37,12 @@ Personalize for C31
 - active: #14b8a6
 - inactive: #0a665b
 - target: #E0E0E0
+- BG: #23252E
 
-## 3. Misc
+## 3. Misc (GTK 3)
 
 - titlebutton.close
+- titlebutton.minimize
 - toolbar
 - titlebar
 - \* window decoration
@@ -46,7 +50,25 @@ Personalize for C31
 - \* Lists
 - \* Popovers
 - window.csd -> (vscode, chromium)
+- button
 
+## 4. Gnome Shell
+- .panel-button: #0a665b
+
+
+## Chromium and VSC
+GTK3 (gtk.css)
+- window.background.chromium menu
+
+Chromium has limited css
+Only background, foreground, and border color can be set
+
+https://chromium.googlesource.com/chromium/src/+/acc4214c4dece4e70fb53355d557bd45f35965d6/docs/linux_gtk_theme_integration.md
+
+## General Name
+- .csd.popup decoration => Buat popup yang ada di menuList, sama klik kanan terminal
+- .context-menu menuitem => Buat item list yang ada di klik kanan terminal
+- window.background.chromium menu => Klik kanan di Chromium
 # Shortcut to activate GTK+ Inspector
 
 >  CTRL + Shift + D

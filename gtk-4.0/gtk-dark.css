@@ -4739,6 +4739,24 @@ windowcontrols button:not(.suggested-action):not(.destructive-action) image {
   background: none;
 }
 
+/* Minimize Button */
+windowcontrols button.minimize:not(.suggested-action):not(.destructive-action) {
+  background-color: #3b3d4d;
+  color: #3b3d4d;
+  transition-duration: 250ms;
+}
+
+windowcontrols button.minimize:not(.suggested-action):not(.destructive-action):hover {
+  background-color: #333442;
+  color: #333442;
+}
+
+windowcontrols button.minimize:not(.suggested-action):not(.destructive-action):active {
+  background-color: #323441;
+  color: #323441;
+}
+
+/* Close Button */
 windowcontrols button.close:not(.suggested-action):not(.destructive-action) {
   background-color: #ff0000;
   color: #ff0000;
@@ -4746,8 +4764,8 @@ windowcontrols button.close:not(.suggested-action):not(.destructive-action) {
 }
 
 windowcontrols button.close:not(.suggested-action):not(.destructive-action):hover {
-  background-color: #ff1616;
-  color: #ff1616;
+  background-color: #db1010;
+  color: #db1010;
 }
 
 windowcontrols button.close:not(.suggested-action):not(.destructive-action):active {
