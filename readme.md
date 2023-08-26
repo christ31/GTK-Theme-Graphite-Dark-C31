@@ -69,6 +69,9 @@ https://chromium.googlesource.com/chromium/src/+/acc4214c4dece4e70fb53355d557bd4
 - .csd.popup decoration => Buat popup yang ada di menuList, sama klik kanan terminal
 - .context-menu menuitem => Buat item list yang ada di klik kanan terminal
 - window.background.chromium menu => Klik kanan di Chromium
+- headerbar button => Buat pengaturan size pada header
+- button.image-button => Buat pengaturan size button pada header
+
 # Shortcut to activate GTK+ Inspector
 
 >  CTRL + Shift + D
