@@ -2353,7 +2353,7 @@ StEntry StLabel.hint-text, .search-entry StLabel.hint-text {
   transition-duration: 150ms;
   text-shadow: none;
   border-radius: 9999px;
-  margin: 0 1px;
+  margin: 1px 0px;
   color: rgba(255, 255, 255, 0.7);
   border: 2px solid transparent;
 }
@@ -2371,8 +2371,7 @@ StEntry StLabel.hint-text, .search-entry StLabel.hint-text {
 #panel .panel-button.clock-display .clock {
   transition-duration: 150ms;
   border-radius: 9999px;
-  padding-left: 12px;
-  padding-right: 12px;
+  padding: 0px 10px;
 }
 
 #panel .panel-button.clock-display .clock {
@@ -2540,22 +2539,20 @@ StEntry StLabel.hint-text, .search-entry StLabel.hint-text {
 }
 
 .popup-menu .popup-menu-content {
-  padding: 0px;
-  background-color: #23252e;
+  padding: 10px;
+  background-color: rgba(35, 37, 46, 0.97);
   border-radius: 12px;
   box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.15);
   margin: 4px 10px 12px;
   font-weight: normal;
-  border: 2px solid #E0E0E0;
+  border: 1px solid #E0E0E0;
 }
 
 .popup-menu .popup-menu-item {
-  spacing: 9px;
-  padding: 0px;
+  spacing: 10px;
   color: rgba(255, 255, 255, 0.7) !important;
   text-shadow: none;
-  border-radius: 6px;
-  margin: 0;
+  border-radius: 9999px;
   font-weight: normal;
 }
 
