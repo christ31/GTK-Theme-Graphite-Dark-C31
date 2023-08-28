@@ -53,7 +53,9 @@ Personalize for C31
 - button
 
 ## 4. Gnome Shell
-- .panel-button: #0a665b
+- .panel-button: #0a665b => Tombol yang ada di panel seperti clock, date, dan tombol menu system
+- .popup-menu .popup-menu-item 
+- .popup-menu .popup-menu-content => Klik kanan shell
 
 
 ## Chromium and VSC
