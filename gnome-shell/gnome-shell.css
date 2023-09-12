@@ -2333,7 +2333,7 @@ StEntry StLabel.hint-text, .search-entry StLabel.hint-text {
   border: none !important;
   box-shadow: none !important;
   font-size: 10pt;
-  background-color: #212121;
+  background-color: #23252E;
   height: 24px;
 }
 
@@ -2353,7 +2353,7 @@ StEntry StLabel.hint-text, .search-entry StLabel.hint-text {
   transition-duration: 150ms;
   text-shadow: none;
   border-radius: 9999px;
-  margin: 1px 0px;
+  padding: 1px 0px;
   color: rgba(255, 255, 255, 0.7);
   border: 2px solid transparent;
 }
@@ -2429,12 +2429,10 @@ StEntry StLabel.hint-text, .search-entry StLabel.hint-text {
 }
 
 #panel .panel-button .system-status-icon {
-  icon-size: 16px;
+  /* icon-size: 16px; */
   padding: 4px;
-  margin: 0;
   -st-icon-style: symbolic;
 }
-
 
 #panel .panel-button .appindicator-trayicons-box {
   margin: 0 6px;
