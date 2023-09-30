@@ -57,6 +57,10 @@ Personalize for C31
 - .popup-menu .popup-menu-item 
 - .popup-menu .popup-menu-content => Klik kanan shell
 
+## LibreOffice Active Cell Border Color
+- gtk-dark.css
+- Line 55
+
 
 ## Chromium and VSC
 GTK3 (gtk.css)
